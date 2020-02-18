@@ -14,3 +14,46 @@ a {
     color: darkblue;
 
 }
+
+div {
+        border: 1px solid gray;
+        padding: 8px;
+    }
+            
+h1 {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    }
+            
+body {
+        font-size: 28px;
+        font-family: 'Courier New', Courier, monospace;
+     }
+            
+ul {
+        list-style-type: none;
+        margin: 5;
+        padding: 0;
+        overflow: hidden;
+        background-color: skyblue;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+            
+li {
+        float: left;
+    }
+            
+li a {
+        display: block;
+        color: white
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+     }
+            
+li a:hover {
+              background-color: rgb(193, 240, 255);
+            }
