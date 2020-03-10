@@ -1,0 +1,21 @@
+container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: center;
+    /* Safari */
+    justify-content: center;
+  }
+  
+  .item {
+    padding: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+      }
+  
+  

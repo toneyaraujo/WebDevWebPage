@@ -1,0 +1,16 @@
+.box {
+    width: 30px;
+    height: 120px;
+    position: center;
+    background-color: hotpink;
+    animation-name: move;
+    animation-duration: 5s;
+    /* animation-fill mode: forwards: */
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+    
+  }
+    @keyframes move {
+      100% {width: 600px; height: 2000px, 
+    }
+  }
